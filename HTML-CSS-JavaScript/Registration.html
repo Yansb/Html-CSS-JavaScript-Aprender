@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regisration</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label>First Name: <input type="text" name="Name" placeholder="Your name"required></label>
+		<label>Last Name: <input type="text" name="Last name" placeholder="Last name"required></label>
+		<br>
+		<label>Male: <input type="radio" name="Gender"></label>
+		<label>Female: <input type="radio" name="Gender"></label>
+		<label>Other: <input type="radio" name="Gender" ></label>
+		<br>
+		<label>Email: <input type="email" name="email" placeholder="Your email" required></label>
+		<label>Password: <input type="password" name="password" placeholder="Password" minlength="5" maxlength="10" required="Precisa de no minimo 5 caracteres e no maximo 10"></label>
+		<br>
+		<label required>Birthday:
+			<select name="month" required="">
+				<option>march</option>
+				<option>June</option>
+				<option>December</option>
+			</select>
+			<select name="day" required="">
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+			</select>
+			<select name="Year" required="">
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+			</select>
+
+		</label>
+		<br>
+		<label>I agree with those terms <input type="checkbox" name="terms" required	></label>
+		<br>
+		<button>submit</button>	
+
+		
+	</form>
+</body>
+</html>
